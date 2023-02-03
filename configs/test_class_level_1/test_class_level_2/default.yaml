@@ -1,0 +1,3 @@
+_target_: bug_testing.main.TestClassLevel2
+
+my_values: ${test_class_level_1.my_values}
