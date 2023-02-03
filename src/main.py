@@ -2,10 +2,7 @@
 This is an example where Hydra fails to run when dictionary interpolation works on a resolved value
 which does not return an allowed primitive type. However the issue would be solved if not for a copy-config-set-flag
 routine at the beginning of hydra.utils.instantiate. See below for an example.
-
-The classes are not necessary for the failure of the interpolation-resolution, but they exemplify my use case.
 """
-
 
 from typing import Optional
 
